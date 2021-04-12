@@ -1,12 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link :to="{name:'benj',params:{dado:'Francisco'}}">Cadastro</router-link> |
-      <router-link to="/ben">Ben</router-link> 
-    </div>
-    <router-view/>
+    <a
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+    >
+      <span aria-hidden="true">
+        <router-link to="/">Home</router-link>
+      </span>
+      <span aria-hidden="true">
+        <router-link to="/about">About</router-link>
+      </span>
+      <span aria-hidden="true">
+        <router-link :to="{ name: 'benj', params: { dado: 'Francisco' } }">
+          Cadastro
+        </router-link>
+      </span>
+      <span aria-hidden="true">
+        <router-link to="/ben">Ben</router-link>
+      </span>
+    </a>
+    <router-view />
   </div>
 </template>
 
