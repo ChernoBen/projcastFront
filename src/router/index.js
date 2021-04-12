@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Cadastro from '../views/Cadastro.vue'
 import Benj from '../views/Benj.vue'
 import About from '../views/About.vue'
+import Form from '../views/Form.vue'
 
 Vue.use(VueRouter)
 
@@ -35,6 +36,11 @@ const routes = [
         path:"francisco",
         name:"Francisco",
         component:About
+      },
+      {
+        path:"form",
+        name:"Form",
+        component:Form
       }
     ]
   } 
