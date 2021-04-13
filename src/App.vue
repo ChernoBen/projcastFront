@@ -11,6 +11,7 @@
             alt="Bulma: a modern CSS framework based on Flexbox" 
           />
         </a>
+        
         <div
           class="navbar-burger"
           data-target="navbarExampleTransparentExample"
