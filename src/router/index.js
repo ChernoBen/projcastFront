@@ -5,6 +5,7 @@ import Register from '../views/Register.vue'
 import Login from '../views/Login.vue'
 import Users from '../views/Users.vue'
 import Edit from '../views/Edit.vue'
+import Content from '../views/Content.vue'
 import axios from 'axios'
 
 function adminAuth(to, from, next) {
@@ -55,6 +56,11 @@ const routes = [
     path: '/register',
     name: 'Register',
     component: Register
+  },
+  {
+    path:"/content/:id",
+    name:"Content",
+    component:Content
   },
   {
     path: '/login',
