@@ -5,7 +5,7 @@
     <nav class="navbar is-dark">
       <!-- navbar brand, navbar menu... -->
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="#">
           <img
             src="./assets/microphone.png"
             alt="Bulma: a modern CSS framework based on Flexbox" 
@@ -23,57 +23,57 @@
 
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="https://bulma.io/"> Home </a>
+          <a class="navbar-item" href="#"> Home </a>
           <div class="navbar-item has-dropdown is-hoverable">
             <a
               class="navbar-link"
-              href="https://bulma.io/documentation/overview/start/"
+              href="#"
             >
               Docs
             </a>
             <div class="navbar-dropdown is-boxed">
               <a
                 class="navbar-item"
-                href="https://bulma.io/documentation/overview/start/"
+                href="#"
               >
-                Overview
+                Sobre...
               </a>
               <a
                 class="navbar-item"
-                href="https://bulma.io/documentation/overview/modifiers/"
+                href="#"
               >
-                Modifiers
+                Membros
               </a>
               <a
                 class="navbar-item"
-                href="https://bulma.io/documentation/columns/basics/"
+                href="#"
               >
-                Columns
+                Artigos
               </a>
               <a
                 class="navbar-item"
-                href="https://bulma.io/documentation/layout/container/"
+                href="#"
               >
-                Layout
+                Playlists
               </a>
               <a
                 class="navbar-item"
-                href="https://bulma.io/documentation/form/general/"
+                href="#"
               >
-                Form
+                Repositorios
               </a>
               <hr class="navbar-divider" />
               <a
                 class="navbar-item"
-                href="https://bulma.io/documentation/elements/box/"
+                href="#"
               >
-                Elements
+                AEeeê Klimiuk
               </a>
               <a
                 class="navbar-item is-active"
-                href="https://bulma.io/documentation/components/breadcrumb/"
+                href="#"
               >
-                Components
+                Podcasts
               </a>
             </div>
           </div>
@@ -89,23 +89,23 @@
                   data-social-action="tweet"
                   data-social-target="https://bulma.io"
                   target="_blank"
-                  href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
+                  href="#"
                 >
                   <span class="icon">
                     <i class="fab fa-twitter"></i>
                   </span>
-                  <span> Tweet </span>
+                  <span> Twitter </span>
                 </a>
               </p>
               <p class="control">
                 <a
                   class="button is-primary"
-                  href="https://github.com/jgthms/bulma/releases/download/0.9.2/bulma-0.9.2.zip"
+                  href="https://github.com/ChernoBen"
                 >
                   <span class="icon">
                     <i class="fas fa-download"></i>
                   </span>
-                  <span>Download</span>
+                  <span>Spotfy</span>
                 </a>
               </p>
             </div>
@@ -122,11 +122,9 @@
     <footer class="hero is-success is-halfheight">
       <div class="content has-text-centered">
         <p>
-          <strong>Bulma</strong> by
-          <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
-          licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-          website content is licensed
+          <strong>ProjCast</strong> by
+          <a href="https://github.com/ChernoBen">Benja</a>. Criado e atualizado por ChernoBen
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Informações de contato aqui...
           <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
             >CC BY NC SA 4.0</a
           >.
