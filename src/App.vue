@@ -58,10 +58,19 @@
         </b-collapse>
       </b-navbar>
     </div>
-    
-    <router-view />
 
-    
+    <router-view />
+    <br>
+    <br>
+
+    <b-card bg-variant="dark" text-variant="white" title="Card Title">
+      <b-card-text>
+        Apenas um footer de conteudo!.
+        <br>
+        <br>
+        <br>
+      </b-card-text>   
+    </b-card>
   </div>
 </template>
 
