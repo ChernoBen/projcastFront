@@ -1,15 +1,14 @@
 <template>
   <div id="app">
+    
     <!--------------------NAVBAR----------------->
     <nav class="navbar is-dark">
       <!-- navbar brand, navbar menu... -->
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
           <img
-            src="https://bulma.io/images/bulma-logo.png"
-            alt="Bulma: a modern CSS framework based on Flexbox"
-            width="112"
-            height="28"
+            src="./assets/microphone.png"
+            alt="Bulma: a modern CSS framework based on Flexbox" 
           />
         </a>
         <div
